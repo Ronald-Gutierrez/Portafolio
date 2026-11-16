@@ -1,101 +1,63 @@
-<div align="center">
+# Ronald Gutierrez — Portafolio Profesional
 
-# Ronald Gutierrez · Portafolio Profesional 🚀
-
-**Full Stack Developer · Machine Learning Engineer · XR Specialist**  
-*Arequipa, Perú · Sistemas Escalables · IA Generativa · Realidad Virtual 3D*
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b6cdb0f1-3bde-4ecc-b332-4a62f257050b/deploy-status)](https://ronaldgutierrez.netlify.app/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ronaldgutierrezar/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ronald-Gutierrez)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/51925238121?text=Hola%20Ronald,%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar)
-
-🌐 **Sitio Web Oficial en Producción:** [https://ronaldgutierrez.netlify.app/](https://ronaldgutierrez.netlify.app/)
-
-</div>
+**Desarrollador Full Stack · Arquitecto de Soluciones TI Junior**  
+Arequipa, Perú · [Sitio Web](https://ronaldgutierrez.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/ronaldgutierrezar/) · [GitHub](https://github.com/Ronald-Gutierrez)
 
 ---
 
-## 🌟 Sobre Mí
+## Sobre mí
 
-Desarrollador de software enfocado en la construcción de sistemas escalables, aplicaciones web/PWA en producción, soluciones avanzadas de **Machine Learning (RAG / IA Generativa)** y experiencias inmersivas 3D en **Realidad Virtual**.
+Desarrollador Full Stack con formación en **Ciencia de la Computación (UNSA)** y experiencia en el diseño e implementación de sistemas escalables, arquitecturas backend (`Python`, `C#`, `ASP.NET`), plataformas empresariales ERP, soluciones con IA generativa (**RAG** en GCP y AWS) y aplicaciones interactivas en **Unity (VR/AR/XR)**.
 
-- 🔭 **Roles Activos:**
-  - **Líder Web & Desarrollador Backend XR** en **FactorWaves RE** (StartUp pionera en Realidad Virtual en Perú).
-  - **Machine Learning Engineer** en **Ops Range** (Brasil / Remoto — Arquitecturas RAG & microservicios GCP).
-  - **Desarrollador Full Stack** en **WYA Soluciones Integrales** (Módulos ERP y bases de datos PostgreSQL).
-- 🎓 **Formación:** Ciencia de la Computación — **Universidad Nacional de San Agustín de Arequipa (UNSA)** · Tercio Superior.
-- 🚀 **Comunidad:** Mentor Oficial & Staff en **NASA Space Apps Challenge Arequipa**.
+### Experiencia Destacada
 
----
-
-## 💻 Proyectos Destacados en Producción
-
-### 1. [NOTI — Alertas de Cortes de Luz y Agua en Arequipa](https://noti-pe.web.app/)
-- **Stack:** Flutter · PWA · Firebase · Python · Playwright · Mapbox.
-- **Impacto:** Plataforma comunitaria gratuita en producción que notifica en tiempo real cortes de energía (SEAL) y agua (SEDAPAR) mediante scraping continuo, filtrado por radio geográfico y notificaciones push.
-
-### 2. [Synapse — Grafo de Conocimiento Colaborativo en Vivo](https://synapse-portal.up.railway.app/)
-- **Stack:** Next.js 14 · TypeScript · D3.js · Portal SDK · Groq Llama 3.3 · Railway.
-- **Impacto:** Lienzo multi-usuario en tiempo real para debate y visualización interactiva de grafos de arquitectura de software procesados mediante LLMs.
-
-### 3. [Hanan Pachaq Hatun Mayun — Videojuego de Realidad Virtual](https://www.instagram.com/factorwaves.re/)
-- **Stack:** Unity · OpenXR · C# · Hand Tracking · Custom VR Shaders.
-- **Impacto:** Videojuego inmersivo para el Game Jam CVA Perú basado en la cosmovisión andina y el río celestial incaico *Hatun Mayu*, controlado mediante seguimiento natural de manos.
-
-### 4. Plane War 3D — Control por Malla 3D MANO
-- **Stack:** Unity · Python · OpenCV · MediaPipe · Malla MANO 3D · Sockets UDP.
-- **Impacto:** Simulador de combate militar 3D controlado a 120 FPS mediante reconstrucción anatómica tridimensional de la mano (778 vértices / 1538 caras) utilizando únicamente una cámara web estándar.
-
-### 5. NASA Space Apps Challenge Arequipa
-- **Stack:** NASA Open Data · Mentoring · Web Lead.
-- **Impacto:** Organización y liderazgo técnico en el mayor hackathon global de la NASA en la sede Arequipa.
+- **WYA Soluciones Integrales** *(Lima, Perú · Abr 2025 – Oct 2026)* — Desarrollador Full Stack | Arquitecto de Soluciones TI Junior (ERP empresariales, MVC / Monolito Modular / Por Capas, APIs REST, PostgreSQL & SQL Server).
+- **Factor Waves** *(Arequipa, Perú · Jun 2025 – Jun 2026)* — Desarrollador Backend (Unity VR/AR/XR) & Líder de Desarrollo Web.
+- **Ops Range** *(Arequipa, Perú · Nov 2024 – May 2026)* — Desarrollador Full Stack (Python, React, Google Cloud, RAG).
+- **UNSA Investiga** *(Arequipa, Perú · Mar 2024 – Dic 2024)* — Investigador Junior (Machine Learning y análisis de datos de calidad del aire).
+- **Freelancer & AM Digital** *(Arequipa, Perú · Ene 2023 – Ago 2024)* — Sistemas web con Flask, FastAPI, Laravel, React, bots para WhatsApp/Telegram e interfaces PHP.
 
 ---
 
-## 🏆 Certificaciones & Hackathones Oficiales
+## Proyectos Destacados
 
-- 🥇 **Constancia Oficial Hackatón Nacional Transformagob 2026** — *Gobierno del Perú (PCM)*.
-- 🎮 **Global Game Jam 2025** — *ACM (Association for Computing Machinery)*.
-- ☁️ **AWS Academy Graduate — Cloud Architecting** — *Amazon Web Services (Credly Verificado)*.
-- 🧠 **Building Language Models on AWS & Foundations of Prompt Engineering** — *AWS Training*.
-- 🎓 **Hackathon Internacional Innovación Educativa** — *Universidad Pontificia de Salamanca (España)*.
-- 💼 **Hackathones Corporativas:**
-  - **Belcorp** (Sept 2023)
-  - **NTT DATA** (Sept 2023)
-  - **Banco de Crédito del Perú BCP** (Oct 2023)
-  - **Ravn** (Nov 2024)
-- 🚀 **NASA Space Apps Arequipa:**
-  - **Galactic Local Mentor** (2024)
-  - **Galactic Team Member** (2024)
-  - **Galactic Solver Problem** (2023)
-- ⚡ **NVIDIA Deep Learning Institute:**
-  - Fundamentals of Deep Learning
-  - Fundamentals of Accelerated Data Science
+1. **[NOTI — Alertas de Cortes SEAL y SEDAPAR](https://noti-pe.web.app/)** · *Next.js · Firebase · Python · Playwright · PWA*
+2. **[Hanan Pachaq Hatun Mayun — Videojuego VR](https://www.instagram.com/factorwaves.re/)** · *Unity · OpenXR · C# · Hand Tracking*
+3. **Plane War 3D — Control por Malla MANO** · *Unity · Python · OpenCV · MediaPipe · MANO 3D*
+4. **[Soluti — NASA Space Apps Challenge](https://soluti-eclipse.vercel.app/)** · *JavaScript · HTML5 · CSS3 · NASA Data*
+5. **[Laberinto de Emociones — Reconocimiento Facial](https://ronald-gutierrez.github.io/Reconocimiento-Facial/)** · *JavaScript · Face-API · MorphCast*
+6. **[PelisFree — Catálogo de Cine TMDB](https://pelisfree2.netlify.app/)** · *React · Redux · SCSS · TMDB API*
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Credenciales
 
-| Área | Tecnologías |
-| :--- | :--- |
-| **Frontend & Web 3D** | JavaScript (ES6+), Three.js (WebGL), React, HTML5 / Vanilla CSS, Next.js, Flutter |
-| **Backend & Cloud** | Python (FastAPI, Flask), C#, Node.js, Google Cloud Platform (GCP), AWS, Firebase, Railway, Docker |
-| **IA & Data Science** | PyTorch, TensorFlow, Keras, OpenCV, MediaPipe, RAG, LangChain, Groq Llama 3.3, Scikit-learn, Pandas |
-| **XR & Videojuegos** | Unity, OpenXR, C#, Meta Quest SDK, Hand Tracking, MANO 3D Mesh |
-| **Bases de Datos** | PostgreSQL, MySQL, Firebase Firestore, Supabase |
+### Hackathones & Competencias
+- Hackatón Nacional Transformagob 2026 — *Gobierno del Perú (PCM)*
+- Global Game Jam 2025 — *ACM*
+- Hackathon Internacional de Innovación Educativa (Hack4Edu) — *Universidad Pontificia de Salamanca*
+- Hackathon de RAVN (2024)
+- NASA Space Apps Challenge Arequipa — *Galactic Local Mentor (2024), Galactic Team Member (2024), Galactic Problem Solver (2023)*
+- InnovaBCP (2023) · Belcorp Hackathon 4.0 (2023) · NTT DATA TechSuyo (2023)
+
+### Certificaciones Técnicas
+- Building Language Models on AWS & Foundations of Prompt Engineering — *AWS Training*
+- AWS Academy Graduate: Cloud Architecting, Cloud Foundations, Intro to Cloud S1 — *AWS*
+- Fundamentals of Deep Learning & Accelerated Data Science — *NVIDIA DLI*
+- Introduction to Deep Learning with Keras & Deep Learning for Images with PyTorch — *DataCamp*
+- Introducción a las Bases de Datos Relacionales (Con MySQL) — *TodoCode*
+- CI EXPLORA — *UNSA*
 
 ---
 
-## 📬 Contacto
+## Estructura del Repositorio
 
-- 📧 **Correo Electrónico:** [ronaldgutierrez2905@gmail.com](mailto:ronaldgutierrez2905@gmail.com) / [rgutierrezar@unsa.edu.pe](mailto:rgutierrezar@unsa.edu.pe)
-- 📱 **WhatsApp:** [+51 925 238 121](https://wa.me/51925238121)
-- 💼 **LinkedIn:** [linkedin.com/in/ronaldgutierrezar](https://www.linkedin.com/in/ronaldgutierrezar/)
-- 💻 **GitHub:** [github.com/Ronald-Gutierrez](https://github.com/Ronald-Gutierrez)
-
----
-
-<div align="center">
-  <sub>Desarrollado con Three.js WebGL & Vanilla CSS · © 2026 Ronald Gutierrez</sub>
-</div>
+```text
+├── index.html          # Estructura semántica del portafolio
+├── style.css           # Sistema visual 60/30/10 (#6A48D6 / #FFFFFF / #0D0708) + Alumni Sans & Albert Sans
+├── data.js             # Datos centralizados de perfil, proyectos, experiencia y credenciales
+├── app.js              # Renderizado, filtros de credenciales, lightbox y navegación
+├── assets/projects/    # Capturas reales de proyectos y vistas técnicas
+├── certs/              # Constancias y certificados oficiales verificados
+└── netlify.toml        # Configuración de publicación estática
+```
