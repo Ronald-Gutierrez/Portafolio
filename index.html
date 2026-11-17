@@ -66,7 +66,7 @@
         <div class="hero-copy">
           <div class="eyebrow-pill">
             <span class="status-dot"></span>
-            <span>Arequipa, Perú · Ciencia de la Computación (UNSA)</span>
+            <span>Arequipa, Perú · Disponible para proyectos</span>
           </div>
 
           <h1 class="hero-title">Ronald Gutierrez</h1>
@@ -85,7 +85,12 @@
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
             </a>
 
-            <button class="btn-ghost-light" data-copy="ronaldgutierrez2905@gmail.com">
+            <button type="button" class="btn-ghost-light js-open-cv">
+              <span>Ver CV</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </button>
+
+            <button type="button" class="btn-link-light" data-copy="ronaldgutierrez2905@gmail.com">
               <span>Copiar Correo</span>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
             </button>
@@ -97,9 +102,8 @@
           <div class="hero-card-top">
             <img src="profile_linkedin.jpg" alt="Ronald Romario Gutierrez Arratia" class="hero-avatar">
             <div>
-              <span class="mono-label">Perfil Verificado</span>
               <h2 class="hero-card-name">Ronald R. Gutierrez Arratia</h2>
-              <p class="hero-card-sub">UNSA · Tercio Superior</p>
+              <p class="hero-card-sub">Ciencia de la Computación</p>
             </div>
           </div>
 
@@ -247,6 +251,9 @@
           <a href="https://github.com/121-rrg?tab=repositories" target="_blank" rel="noopener noreferrer" class="contact-btn secondary">
             <span>GitHub · Proyectos personales y educativos ↗</span>
           </a>
+          <button type="button" class="contact-btn secondary js-open-cv">
+            <span>Ver / Descargar CV (PDF)</span>
+          </button>
         </div>
       </div>
     </section>
@@ -258,7 +265,7 @@
     <span>Arequipa, Perú · Portafolio Profesional</span>
   </footer>
 
-  <!-- Lightbox Modal -->
+  <!-- Lightbox Modal (Certificates) -->
   <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
     <div class="lightbox-dialog">
       <div class="lightbox-bar">
@@ -267,6 +274,31 @@
       </div>
       <div class="lightbox-frame">
         <img id="lightbox-img" alt="Certificado Oficial">
+      </div>
+    </div>
+  </div>
+
+  <!-- CV Preview & Download Modal -->
+  <div class="lightbox" id="cv-modal" aria-hidden="true" role="dialog" aria-labelledby="cv-modal-title">
+    <div class="lightbox-dialog cv-dialog">
+      <div class="lightbox-bar">
+        <div>
+          <span class="mono-label">Currículum Vitae · 2026</span>
+          <div id="cv-modal-title" class="cv-modal-heading">Ronald Romario Gutierrez Arratia</div>
+        </div>
+        <div class="cv-modal-actions">
+          <a href="assets/Ronald_Gutierrez_CV.pdf" download="Ronald_Gutierrez_CV.pdf" class="btn-accent btn-cv-action">
+            <span>Descargar PDF</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          </a>
+          <a href="assets/Ronald_Gutierrez_CV.pdf" target="_blank" rel="noopener noreferrer" class="card-btn">
+            <span>Abrir ↗</span>
+          </a>
+          <button type="button" class="lightbox-close" id="cv-close" aria-label="Cerrar visor de CV">✕</button>
+        </div>
+      </div>
+      <div class="cv-frame-wrap">
+        <iframe id="cv-frame" title="Currículum Vitae de Ronald Gutierrez" data-src="assets/Ronald_Gutierrez_CV.pdf#navpanes=0&view=Fit"></iframe>
       </div>
     </div>
   </div>

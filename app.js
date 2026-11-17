@@ -22,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderCredentialGroup('certs-grid', certificationsList);
   initCredentialFilters();
   initLightbox();
+  initCvModal();
   initClipboardActions();
   initNavigation();
 });
@@ -246,6 +247,42 @@ function initLightbox() {
   window.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('open')) {
       closeModal();
+    }
+  });
+}
+
+function initCvModal() {
+  const modal = document.getElementById('cv-modal');
+  const frame = document.getElementById('cv-frame');
+  const closeBtn = document.getElementById('cv-close');
+  const triggers = document.querySelectorAll('.js-open-cv');
+
+  if (!modal || !frame || !triggers.length) return;
+
+  const openCv = () => {
+    const src = frame.getAttribute('data-src');
+    if (src && !frame.getAttribute('src')) {
+      frame.setAttribute('src', src);
+    }
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  };
+
+  const closeCv = () => {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  };
+
+  triggers.forEach((btn) => btn.addEventListener('click', openCv));
+  if (closeBtn) closeBtn.addEventListener('click', closeCv);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeCv();
+  });
+  window.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('open')) {
+      closeCv();
     }
   });
 }

@@ -7,7 +7,7 @@ Arequipa, Perú · [Sitio Web](https://ronaldgutierrez.netlify.app/) · [LinkedI
 
 ## Sobre mí
 
-Desarrollador Full Stack con formación en **Ciencia de la Computación (UNSA)** y experiencia en el diseño e implementación de sistemas escalables, arquitecturas backend (`Python`, `C#`, `ASP.NET`), plataformas empresariales ERP, soluciones con IA generativa (**RAG** en GCP y AWS) y aplicaciones interactivas en **Unity (VR/AR/XR)**.
+Desarrollador Full Stack con formación en **Ciencia de la Computación** y experiencia en el diseño e implementación de sistemas escalables, arquitecturas backend (`Python`, `C#`, `ASP.NET`), plataformas empresariales ERP, soluciones con IA generativa (**RAG** en GCP y AWS) y aplicaciones interactivas en **Unity (VR/AR/XR)**.
 
 ### Experiencia Destacada
 

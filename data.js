@@ -16,6 +16,7 @@ export const profileData = {
   academicEmail: "rgutierrezar@unsa.edu.pe",
   linkedin: "https://www.linkedin.com/in/ronaldgutierrezar/",
   github: "https://github.com/121-rrg?tab=repositories",
+  cvUrl: "assets/Ronald_Gutierrez_CV.pdf",
   avatar: "profile_linkedin.jpg",
   stats: [
     { value: "+3 Años", label: "Experiencia Dev" },
@@ -155,9 +156,9 @@ export const experiences = [
 
 export const educationList = [
   {
-    institution: "Universidad Nacional de San Agustín de Arequipa (UNSA)",
+    institution: "Universidad Nacional de San Agustín de Arequipa",
     degree: "Ciencia de la Computación",
-    period: "Mar 2020 – Dic 2024 · Tercio Superior",
+    period: "Mar 2020 – Dic 2024",
     detail: "Estructuras de Datos, Ingeniería de Software, Inteligencia Artificial, Desarrollo Web y Computación en la Nube."
   },
   {

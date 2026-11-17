@@ -1158,6 +1158,40 @@ button {
   border-radius: 6px;
 }
 
+.cv-dialog {
+  width: min(960px, 100%);
+}
+
+.cv-modal-heading {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.cv-modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.btn-cv-action {
+  padding: 8px 14px;
+  font-size: 12.5px;
+}
+
+.cv-frame-wrap {
+  background: var(--offwhite);
+  height: min(76vh, 760px);
+}
+
+.cv-frame-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
 .toast {
   position: fixed;
   bottom: 24px;
