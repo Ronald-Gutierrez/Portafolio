@@ -1,7 +1,7 @@
 # Ronald Gutierrez — Portafolio Profesional
 
 **Desarrollador Full Stack · Arquitecto de Soluciones TI Junior**  
-Arequipa, Perú · [Sitio Web](https://ronaldgutierrez.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/ronaldgutierrezar/) · [GitHub](https://github.com/Ronald-Gutierrez)
+Arequipa, Perú · [Sitio Web](https://ronaldgutierrez.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/ronaldgutierrezar/) · [GitHub (@121-rrg — Proyectos personales y educativos)](https://github.com/121-rrg?tab=repositories)
 
 ---
 
@@ -22,7 +22,7 @@ Desarrollador Full Stack con formación en **Ciencia de la Computación (UNSA)**
 ## Proyectos Destacados
 
 1. **[NOTI — Alertas de Cortes SEAL y SEDAPAR](https://noti-pe.web.app/)** · *Next.js · Firebase · Python · Playwright · PWA*
-2. **[Hanan Pachaq Hatun Mayun — Videojuego VR](https://www.instagram.com/factorwaves.re/)** · *Unity · OpenXR · C# · Hand Tracking*
+2. **[Hanan Pachaq Hatun Mayun — Videojuego VR (FactorWaves)](https://factorwavesre.vercel.app)** · *Unity · OpenXR · C# · Hand Tracking*
 3. **Plane War 3D — Control por Malla MANO** · *Unity · Python · OpenCV · MediaPipe · MANO 3D*
 4. **[Soluti — NASA Space Apps Challenge](https://soluti-eclipse.vercel.app/)** · *JavaScript · HTML5 · CSS3 · NASA Data*
 5. **[Laberinto de Emociones — Reconocimiento Facial](https://ronald-gutierrez.github.io/Reconocimiento-Facial/)** · *JavaScript · Face-API · MorphCast*

@@ -15,12 +15,11 @@ export const profileData = {
   email: "ronaldgutierrez2905@gmail.com",
   academicEmail: "rgutierrezar@unsa.edu.pe",
   linkedin: "https://www.linkedin.com/in/ronaldgutierrezar/",
-  github: "https://github.com/Ronald-Gutierrez",
+  github: "https://github.com/121-rrg?tab=repositories",
   avatar: "profile_linkedin.jpg",
-  videoReel: "https://drive.google.com/file/d/1im3DeiF6mHsUD560JcKJwN9s_f_JRlVP/view",
   stats: [
     { value: "+3 Años", label: "Experiencia Dev" },
-    { value: "83", label: "Repos GitHub" },
+    { value: "31+", label: "Repos Personales & Educativos" },
     { value: "10", label: "Hackathones" },
     { value: "11", label: "Certificaciones" }
   ]
@@ -46,8 +45,8 @@ export const featuredProjects = [
     image: "assets/projects/hanan_pachaq.jpg",
     desc: "Experiencia inmersiva en Realidad Virtual desarrollada junto a FactorWaves basada en la cosmovisión andina y el río celestial 'Hatun Mayu', con interacción natural mediante Hand Tracking.",
     tags: ["Unity", "OpenXR", "C#", "Hand Tracking"],
-    demo: "https://www.instagram.com/factorwaves.re/",
-    video: "https://drive.google.com/file/d/1im3DeiF6mHsUD560JcKJwN9s_f_JRlVP/view"
+    demo: "https://factorwavesre.vercel.app",
+    github: "https://github.com/121-rrg/FactorWaves"
   },
   {
     id: "plane-war",
@@ -57,7 +56,7 @@ export const featuredProjects = [
     image: "assets/projects/plane_war.jpg",
     desc: "Simulador aéreo 3D controlado sin mandos físicos mediante cámara web, MediaPipe y reconstrucción anatómica de malla 3D MANO transmitiendo telemetría de orientación en tiempo real.",
     tags: ["Unity", "Python", "OpenCV", "MediaPipe", "MANO 3D"],
-    github: "https://github.com/Ronald-Gutierrez"
+    github: "https://github.com/121-rrg?tab=repositories"
   },
   {
     id: "soluti-eclipse",
